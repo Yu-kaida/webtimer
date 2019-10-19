@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<!-- Start your code here -->
+
+<h1 class="title">Webタイマー</h1>
+
+<div class="disc">
+  <p>これは時間を測るアプリです</p>
+</div>
+  
+  <div>
+    <form name="timer" class="timer">
+      <input type="text" value="" />分
+      <input type="text" value="" />秒<br />
+      <input type="button" value="スタート" onclick="cntStart()" />
+      <input type="button" value="ストップ" onclick="cntStop()"/>
+      <input type="button" value="+1分" onclick="plus_one()">
+      <input type="button" value="+3分" onclick="plus_three()">
+      <input type="button" value="+5分" onclick="plus_five()">
+      <input type="button" value="Clear" onclick="clear()"> 
+    </form>
+  </div>
+  
+  <div class="link">
+    <p>リンク集</p>
+    <a href="https://sites.google.com/view/taglabo/">田口ゼミ</a>
+  </div>
+<!-- End your code here -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
