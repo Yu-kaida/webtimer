@@ -1,5 +1,8 @@
 // Write JavaScript here 
-var timer1;
+var timer1 = 0;
+var min = 0;
+var sec = 0;
+
 
 function cntStart() {
   document.timer.elements[2].disabled=true;
@@ -59,14 +62,7 @@ function reSet()
   clearInterval(timer1);
 }  
 
-function plus_one() {
-  min++;
-}
-
-function plus_three() {
-  min += 3;
-}
-
-function plus_five() {
-  min += 5;
+function plus_num(cmd) {
+  var cmd;
+  document.timer.elements[0].value += cmd;
 }
