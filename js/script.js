@@ -66,3 +66,8 @@ function plus_num(cmd) {
   var cmd;
   document.timer.elements[0].value += cmd;
 }
+
+function plus_sec(cmd2) {
+  var cmd2;
+  document.timer.elements[1].value += cmd2;
+}
